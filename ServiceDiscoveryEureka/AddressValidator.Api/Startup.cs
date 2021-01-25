@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ShippingValidator.Api
+namespace AddressValidator.Api
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace ShippingValidator.Api
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ShippingValidator.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "AddressValidator.Api", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace ShippingValidator.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ShippingValidator.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AddressValidator.Api v1"));
             }
 
             app.UseHttpsRedirection();

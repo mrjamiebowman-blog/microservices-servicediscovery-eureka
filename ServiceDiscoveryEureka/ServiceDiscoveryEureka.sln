@@ -8,8 +8,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA0FC81C-3D2A-4B2C-9540-503C29E71B02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48234BCF-A582-4B6D-B7C5-78FCDCDE497F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingValidator.Api", "ShippingValidator.Api\ShippingValidator.Api.csproj", "{A088BD1B-F959-4CA2-8F1E-19E752E7AF65}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{10831C28-0B09-4C58-8123-C48937419FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressValidator.Api", "AddressValidator.Api\AddressValidator.Api.csproj", "{49021F5B-9EDB-4F2D-9D88-F2D1E5471AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressValidator.Data.Models", "AddressValidator.Data.Models\AddressValidator.Data.Models.csproj", "{D849DE95-AE7E-45E1-BCC9-83FB9F678968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressValidator.Data", "AddressValidator.Data\AddressValidator.Data.csproj", "{B6E8B260-A339-46F8-9C33-2C036C7B5A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,17 +31,27 @@ Global
 		{41E00C27-759E-4D9C-A49C-379A8F0FA0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41E00C27-759E-4D9C-A49C-379A8F0FA0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41E00C27-759E-4D9C-A49C-379A8F0FA0F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A088BD1B-F959-4CA2-8F1E-19E752E7AF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A088BD1B-F959-4CA2-8F1E-19E752E7AF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A088BD1B-F959-4CA2-8F1E-19E752E7AF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A088BD1B-F959-4CA2-8F1E-19E752E7AF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49021F5B-9EDB-4F2D-9D88-F2D1E5471AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49021F5B-9EDB-4F2D-9D88-F2D1E5471AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49021F5B-9EDB-4F2D-9D88-F2D1E5471AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49021F5B-9EDB-4F2D-9D88-F2D1E5471AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D849DE95-AE7E-45E1-BCC9-83FB9F678968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D849DE95-AE7E-45E1-BCC9-83FB9F678968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D849DE95-AE7E-45E1-BCC9-83FB9F678968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D849DE95-AE7E-45E1-BCC9-83FB9F678968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E8B260-A339-46F8-9C33-2C036C7B5A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E8B260-A339-46F8-9C33-2C036C7B5A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E8B260-A339-46F8-9C33-2C036C7B5A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E8B260-A339-46F8-9C33-2C036C7B5A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{41E00C27-759E-4D9C-A49C-379A8F0FA0F2} = {FA0FC81C-3D2A-4B2C-9540-503C29E71B02}
-		{A088BD1B-F959-4CA2-8F1E-19E752E7AF65} = {FA0FC81C-3D2A-4B2C-9540-503C29E71B02}
+		{49021F5B-9EDB-4F2D-9D88-F2D1E5471AEC} = {FA0FC81C-3D2A-4B2C-9540-503C29E71B02}
+		{D849DE95-AE7E-45E1-BCC9-83FB9F678968} = {FA0FC81C-3D2A-4B2C-9540-503C29E71B02}
+		{B6E8B260-A339-46F8-9C33-2C036C7B5A7B} = {FA0FC81C-3D2A-4B2C-9540-503C29E71B02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7223A32A-5E34-462D-A42D-DD47D53B1CBF}

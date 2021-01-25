@@ -1,6 +1,6 @@
 using System;
 
-namespace ShippingValidator.Api
+namespace AddressValidator.Api
 {
     public class WeatherForecast
     {

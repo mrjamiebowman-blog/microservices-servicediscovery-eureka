@@ -2,13 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>9b3a6631-3ed4-499e-9cfe-81386741618a</UserSecretsId>
+    <UserSecretsId>94128413-909d-4ff1-a7ba-3262a6d1bf52</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.10" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AddressValidator.Data.Models\AddressValidator.Data.Models.csproj" />
   </ItemGroup>
 
 </Project>
